@@ -1,0 +1,28 @@
+{
+  "name": "npminstall-ci",
+  "version": "1.0.0",
+  "description": "CI Test for npminstall",
+  "scripts": {
+    "ci": "sh git.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "npminstall": "^1.2.1"
+  },
+  "homepage": "https://github.com/node-modules/npminstall-ci",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/node-modules/npminstall-ci.git",
+    "web": "https://github.com/node-modules/npminstall-ci"
+  },
+  "bugs": {
+    "url": "https://github.com/node-modules/npminstall-ci/issues",
+    "email": "m@fengmk2.com"
+  },
+  "keywords": [
+    "npminstall",
+    "npminstall-ci"
+  ],
+  "author": "fengmk2 <m@fengmk2.com> (http://fengmk2.com)",
+  "license": "MIT"
+}
