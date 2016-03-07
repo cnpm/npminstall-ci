@@ -11,8 +11,8 @@ for name in $( cat repos.txt ); do
     echo "git clone https://github.com/${name}.git --depth=1 ${project}"
     git clone https://github.com/${name}.git --depth=1 ${project}
     cd ${project}
-    time ${npminstall} || exit $?
-    time npm test || exit $?
+    ${npminstall} || exit $?
+    npm test || exit $?
     cd ${ROOT}
     rm -rf tmp
 done
