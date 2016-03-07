@@ -1,5 +1,5 @@
-hapi/hapi
 koajs/koa
+hapijs/hapi
 expressjs/express
 senchalabs/connect
 flatiron/flatiron

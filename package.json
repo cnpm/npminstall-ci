@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "CI Test for npminstall",
   "scripts": {
+    "test": "npm run ci",
     "ci": "sh git.sh"
   },
   "dependencies": {},
